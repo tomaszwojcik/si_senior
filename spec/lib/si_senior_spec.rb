@@ -22,66 +22,66 @@ describe SiSenior do
     expect(1.tera).to eq 1.0e+12
   end
 
-  it 'returns 1.0e+9 for 1 giga' do
+  it 'returns 1.0e+9 for 1.giga' do
     expect(1.giga).to eq 1.0e+9
   end
 
-  it 'returns 1.0e+6 for 1 mega' do
+  it 'returns 1.0e+6 for 1.mega' do
     expect(1.mega).to eq 1.0e+6
   end
 
-  it 'returns 1.0e+3 for 1 kilo' do
+  it 'returns 1.0e+3 for 1.kilo' do
     expect(1.kilo).to eq 1.0e+3
   end
 
-  it 'returns 1.0e+2 for 1 hecto' do
+  it 'returns 1.0e+2 for 1.hecto' do
     expect(1.hecto).to eq 1.0e+2
   end
 
-  it 'returns 1.0e+1 for 1 deca' do
+  it 'returns 1.0e+1 for 1.deca' do
     expect(1.deca).to eq 1.0e+1
   end
 
-  it 'returns 1.0e-1 for 1 deci' do
+  it 'returns 1.0e-1 for 1.deci' do
     expect(1.deci).to eq 1.0e-1
   end
 
-  it 'returns 1.0e-2 for 1 centi' do
+  it 'returns 1.0e-2 for 1.centi' do
     expect(1.centi).to eq 1.0e-2
   end
 
-  it 'returns 1.0e-3 for 1 milli' do
+  it 'returns 1.0e-3 for 1.milli' do
     expect(1.milli).to eq 1.0e-3
   end
 
-  it 'returns 1.0e-6 for 1 micro' do
+  it 'returns 1.0e-6 for 1.micro' do
     expect(1.micro).to eq 1.0e-6
   end
 
-  it 'returns 1.0e-9 for 1 nano' do
+  it 'returns 1.0e-9 for 1.nano' do
     expect(1.nano).to eq 1.0e-9
   end
 
-  it 'returns 1.0e-12 for 1 pico' do
+  it 'returns 1.0e-12 for 1.pico' do
     expect(1.pico).to eq 1.0e-12
   end
 
-  it 'returns 1.0e-15 for 1 femto' do
+  it 'returns 1.0e-15 for 1.femto' do
     expect(1.femto).to eq 1.0e-15
   end
 
-  it 'returns 1.0e-18 for 1 atto' do
+  it 'returns 1.0e-18 for 1.atto' do
     expect(1.atto).to eq 1.0e-18
   end
 
   # Investigate BigDecimal requirement here
   # Probably this is  the float issue with big floats like 1.0e-21 and 1.0e-24
 
-  it 'returns 1.0e-21 for 1 zepto' do
+  it 'returns 1.0e-21 for 1.zepto' do
     expect(1.zepto).to eq BigDecimal.new('1.0e-21')
   end
 
-  it 'returns 1.0e-24 for 1 yocto' do
+  it 'returns 1.0e-24 for 1.yocto' do
     expect(1.yocto).to eq BigDecimal.new('1.0e-24')
   end
 
