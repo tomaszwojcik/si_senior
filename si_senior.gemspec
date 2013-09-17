@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["wojcik.tomek@gmail.com"]
   spec.description   = "SI unit converter."
   spec.summary       = "SI unit converter."
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/tomaszwojcik/si_senior"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
