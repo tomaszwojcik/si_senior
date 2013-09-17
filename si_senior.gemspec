@@ -6,9 +6,9 @@ require 'si_senior/version'
 Gem::Specification.new do |spec|
   spec.name          = "si_senior"
   spec.version       = SiSenior::VERSION
-  spec.authors       = ["Tomasz Wojcik"]
+  spec.authors       = ["Tomasz Wójcik"]
   spec.email         = ["wojcik.tomek@gmail.com"]
-  spec.description   = "SI unit converter."
+  spec.description   = "SI unit converter. Supports prefixes (1.kilo, 5.mega etc) and conversions (1.to_mega, 5.mili.to_centi etc)"
   spec.summary       = "SI unit converter."
   spec.homepage      = "https://github.com/tomaszwojcik/si_senior"
   spec.license       = "MIT"
