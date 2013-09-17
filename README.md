@@ -1,29 +1,8 @@
-# SiSenior
+SI señor
+=========
 
-TODO: Write a gem description
+SI señor is a simple SI unit converter.
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'si_senior'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install si_senior
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+#### Sample usage
+`1.milli`<br>
+`1.kilo.to_mega`<br>
