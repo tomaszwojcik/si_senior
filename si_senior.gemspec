@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = SiSenior::VERSION
   spec.authors       = ["Tomasz Wojcik"]
   spec.email         = ["wojcik.tomek@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = "SI unit converter."
+  spec.summary       = "SI unit converter."
   spec.homepage      = ""
   spec.license       = "MIT"
 
