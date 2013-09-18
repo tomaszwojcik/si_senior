@@ -6,7 +6,7 @@ Assume that you always have basic SI unit for conversion (seconds for time, mete
 
 ##### Important
 All operations are done on BigDecimal (numbers are automatically converted) - you have to use 
-[`BigDecimal#to_s(s)`](http://www.ruby-doc.org/stdlib-2.0/libdoc/bigdecimal/rdoc/BigDecimal.html#method-i-to_s) for pretty format.
+[`BigDecimal#to_s(s)`](http://www.ruby-doc.org/stdlib-2.0/libdoc/bigdecimal/rdoc/BigDecimal.html#method-i-to_s) after prefixing or converting to get pretty formatting.
 
 #### Sample usage
 `1.milli`<br>
