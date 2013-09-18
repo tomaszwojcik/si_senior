@@ -75,7 +75,7 @@ describe SiSenior do
   end
 
   # Investigate BigDecimal requirement here
-  # Probably this is  the float issue with big floats like 1.0e-21 and 1.0e-24
+  # Probably this is the float issue with big floats like 1.0e-21 and 1.0e-24
 
   it 'returns 1.0e-21 for 1.zepto' do
     expect(1.zepto).to eq BigDecimal.new('1.0e-21')
@@ -93,7 +93,7 @@ describe SiSenior do
     expect(1.yocto.to_yotta).to eq 1.0e-48
   end
 
-  it 'converting from and to thesame prefix returns 1' do
+  it 'converting from and to the same prefix returns 1' do
     expect(1.yotta.to_yotta).to eq 1
     expect(1.yocto.to_yocto).to eq 1
   end
