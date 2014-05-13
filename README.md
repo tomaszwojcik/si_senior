@@ -1,5 +1,6 @@
 SI señor
 =========
+[![Gem Version](https://badge.fury.io/rb/si_senior.svg)](http://badge.fury.io/rb/si_senior)
 
 SI señor is a simple SI prefix converter.<br>
 Assume that you always have basic SI unit for conversion (seconds for time, meters for length and so on).
