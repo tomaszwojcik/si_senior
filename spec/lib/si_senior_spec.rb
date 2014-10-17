@@ -90,7 +90,7 @@ describe SiSenior do
   end
 
   it 'converts 1 yocto to 1 yotta' do
-    expect(1.yocto.to_yotta).to eq 1.0e-48
+    expect(1.yocto.to_yotta).to eq BigDecimal.new('1.0e-48')
   end
 
   it 'converting from and to the same prefix returns 1' do
