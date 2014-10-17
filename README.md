@@ -1,6 +1,6 @@
 SI señor
 =========
-[![Build Status](https://travis-ci.org/tomaszwojcik/si_senior.svg)]()
+[![Build Status](https://travis-ci.org/tomaszwojcik/si_senior.svg?branch=master)](https://travis-ci.org/tomaszwojcik/si_senior)
 [![Gem Version](https://badge.fury.io/rb/si_senior.svg)](http://badge.fury.io/rb/si_senior)
 
 SI señor is a simple SI prefix converter.<br>
