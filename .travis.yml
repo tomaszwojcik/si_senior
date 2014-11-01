@@ -5,6 +5,4 @@ rvm:
   - 1.9.3
   - ruby-head
   - jruby-19mode
-  - jruby-head
-  - rbx-2
 script: rspec spec
